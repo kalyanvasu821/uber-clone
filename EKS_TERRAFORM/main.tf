@@ -4,7 +4,7 @@ resource "aws_eks_cluster" "my_cluster" {
 
   vpc_config {
     subnet_ids         = ["subnet-05e501444e58b91b5", "subnet-0286e9afc3e9830ba"]  # Replace with your subnet IDs
-    security_group_ids = ["sg-05e385a6b044cbaf7"]                         # Replace with your security group IDs
+    security_group_ids = ["sg-0fe11633359d9f837"]                         # Replace with your security group IDs
   }
 
   tags = {
