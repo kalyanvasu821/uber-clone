@@ -48,4 +48,4 @@ Step5: write 2 pipelines, one is for EKS provision using Terraform and another i
 Step6: Destroy everything 
 
 
-**Note**: Refer Uber-Clone Document for detailed infromation on implementing this project along with screen shots 
+****Note****: Refer Uber-Clone Document for detailed infromation on implementing this project along with screen shots 
