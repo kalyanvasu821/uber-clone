@@ -34,11 +34,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ***Simplified Steps to implement this Project***
+
 Step1: Launch an Ubuntu instance (T2.large, 30GB storage)
+
 STEP 2: Create IAM role with EC2 administartor access and modify the EC2 IAM role with this
+
 Step3: Install required Packages (Jenkins, Docker, trivy, Kubectl, Terraform, AWS Cli, SonarQube)
+
 Step4: Step6: Plugins installation & setup  (install required plugins, setup global tool configuration, setup credentials)
+
 Step5: write 2 pipelines, one is for EKS provision using Terraform and another is for deploying our APP
+
 Step6: Destroy everything 
+
 
 **Note**: Refer Uber-Clone Document for detailed infromation on implementing this project along with screen shots 
